@@ -1,16 +1,15 @@
-import App, { Container } from 'next/app';
-import Page from '../components/Page'
+import App from 'next/app';
+import Page from '../public/components/Page'
 
 class Myapp extends App {
     render() {
         const { Component } = this.props;
 
         return (
-            <Container>
                 <Page>
                     <Component />
                 </Page>
-            </Container>
+          
         )
     }
 }
