@@ -22,7 +22,7 @@ position:relative;
 z-index:2;
 transform:skew(-7deg);
 a{
-    padding:0.5rem 1rem;
+    padding:0.5rem auto;
     background:${props => props.theme.red};
     color:white;
     text-transform:uppercase;
@@ -48,11 +48,9 @@ const StyledHeader = styled.header`
 }
 
 .sub-bar{
-
     display:grid;
     grid-template-columns:1fr auto;
     border-bottom:1px solid ${props=>props.theme.lightgrey};
-
 }
 
 `
@@ -64,7 +62,7 @@ export default function Header() {
             <div className="bar">
                 <Logo>
                     <Link href="/">
-                        <a>Slick Fits</a>
+                        <a>E-Store</a>
                     </Link>
                 </Logo>
                 <Nav />

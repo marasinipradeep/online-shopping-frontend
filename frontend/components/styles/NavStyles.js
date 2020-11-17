@@ -8,7 +8,7 @@ const NavStyles = styled.ul`
   font-size: 2rem;
   a,
   button {
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
     display: flex;
     align-items: center;
     position: relative;
