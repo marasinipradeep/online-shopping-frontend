@@ -1,9 +1,9 @@
-import Link from 'next/link'
-export default function index() {
+import Items from '../public/components/Items'
+
+export default function Home() {
     return (
         <div>
-            <p>Hello world!</p>
-            
+          <Items/>
         </div>
     )
 }
