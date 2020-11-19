@@ -1,9 +1,8 @@
-import Link from 'next/link'
+import CreateItem from '../public/components/CreateItem';
 export default function sell() {
     return (
         <div>
-            <p>Sell</p>
-            
+         <CreateItem/>
         </div>
     )
 }
