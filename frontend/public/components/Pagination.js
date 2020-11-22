@@ -4,7 +4,7 @@ import gql from 'graphql-tag';
 import { Query } from 'react-apollo';
 import Link from 'next/link';
 import Error from './ErrorMessage';
-import { perPage } from '../../config';
+import {perPage}  from '../../config';
 import Head from 'next/head';
 
 
