@@ -1,6 +1,7 @@
 import Signup from  '../public/components/Signup';
 import styled from 'styled-components';
 import Signin from '../public/components/Signin';
+import RequestReset from '../public/components/RequestReset';
 
 const Columns = styled.div`
 display: grid;
@@ -13,6 +14,7 @@ grid-gap:20px;
         <Columns>
           <Signup/>
           <Signin/>
+          <RequestReset/>
         </Columns>
     )
 }
