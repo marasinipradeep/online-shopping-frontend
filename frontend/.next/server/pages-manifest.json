@@ -2,6 +2,7 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/reset": "pages/reset.js",
-  "/signup": "pages/signup.js"
+  "/item": "pages/item.js",
+  "/sell": "pages/sell.js",
+  "/items": "pages/items.js"
 }
