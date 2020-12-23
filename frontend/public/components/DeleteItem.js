@@ -40,7 +40,11 @@ export default class DeleteItem extends Component {
                     { loading, error }) => (
 
                         <button onClick={() => {
-                            if (confirm('Are you sure you want to delete this item?')) { deleteItem() }
+                            if (confirm('Are you sure you want to delete this item?')) { 
+                                deleteItem().catch(err=>{
+                                    alert(err.message);
+                                }) 
+                            }
                         }}>Delete</button>
                     )}
             </Mutation>
