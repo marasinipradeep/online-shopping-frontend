@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Router from 'next/router';
 import NProgress from 'nprogress'
 import Nav from './Nav';
+import Cart from './Cart'
 
 
 Router.onRouteChangeStart = ()=>{    
@@ -72,7 +73,7 @@ export default function Header() {
                 <p >Search</p>
             </div>
 
-            <div>Cart</div>
+            <Cart/>
 
         </StyledHeader>
     )
