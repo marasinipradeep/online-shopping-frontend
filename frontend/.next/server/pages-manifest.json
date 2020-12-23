@@ -2,7 +2,6 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/item": "pages/item.js",
-  "/sell": "pages/sell.js",
-  "/items": "pages/items.js"
+  "/permissions": "pages/permissions.js",
+  "/signup": "pages/signup.js"
 }
