@@ -30,7 +30,7 @@ const CartItem = ({ cartItem }) => {
         );
     return (
         <CartItemStyles>
-
+           
             <img width="100" src={cartItem.item.image} alt={cartItem.item.title} />
             <div className="cart-item-details">
                 <h3>{cartItem.item.title}</h3>
@@ -43,7 +43,7 @@ const CartItem = ({ cartItem }) => {
                 </p>
                 <RemoveFromCart id={cartItem.id} />
             </div>
-
+           
         </CartItemStyles>
     );
 };
