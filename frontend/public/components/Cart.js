@@ -27,7 +27,7 @@ const Cart = () => (
         {({data}) => {
             console.log(`inside Cart data value are`);
             console.log(data)
-            const {me} = data;
+            const {me} =  data;
             if (!me) return null;
             return (
 
