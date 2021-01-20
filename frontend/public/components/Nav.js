@@ -4,6 +4,7 @@ import {LOCAL_STATE_QUERY,TOGGLE_CART_MUTATION} from '../components/Cart';
 import NavStyles from './styles/NavStyles';
 import User from './User';
 import Signout from './Signout'
+import CartCount from '../components/CartCount'
 
 
 const Nav = () => (
@@ -32,7 +33,7 @@ const Nav = () => (
               {(toggleCart) => (
                 <button onClick={toggleCart}>
                   My Cart
-                  {/* <CartCount count={me.cart.reduce((tally, cartItem) => tally + cartItem.quantity, 0)}></CartCount> */}
+                  <CartCount count={me.cart.reduce((tally, cartItem) => tally + cartItem.quantity, 0)}></CartCount>
                 </button>
               )}
             </Mutation>
